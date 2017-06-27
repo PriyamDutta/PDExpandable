@@ -11,7 +11,8 @@ Addons can be added to the respective listing index at a time. You can delete th
 You can directly pass by hitting on any index without adding addons. But if you have addons you have to press OK button in the last row.
 
 # Get your mapped data
-
+```
 let dataModel = DataModel()
 dataModel.addOnArray = (weakSelf?.extendCellCollection)!
 dataModel.dataDict = mainArray[selectedSecton] as! [String : String]
+```
